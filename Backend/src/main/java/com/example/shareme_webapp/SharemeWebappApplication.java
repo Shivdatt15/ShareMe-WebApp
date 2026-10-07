@@ -8,6 +8,12 @@ public class SharemeWebappApplication {
 
 	public static void main(String[] args) {
 
+        String mongoUri = System.getenv("MONGODB_URI");
+
+        System.out.println("MONGODB_URI exists: " + (mongoUri != null));
+        System.out.println("MONGODB_URI length: " +
+                (mongoUri != null ? mongoUri.length() : 0));
+
 		SpringApplication.run(SharemeWebappApplication.class, args);
 	}
 
