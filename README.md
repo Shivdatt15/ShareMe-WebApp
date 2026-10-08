@@ -21,9 +21,7 @@ Users can upload multiple files, manage their uploaded files, make files public,
 - [Project Structure](#-project-structure)
 - [Database Design](#-database-design)
 - [Deployment](#-deployment)
-- [Key Concepts](#-key-concepts)
-
-
+  
 ---
 
 # ✨ Features
